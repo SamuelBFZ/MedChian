@@ -16,8 +16,12 @@ export default function Header({ companyName }: HeaderProps) {
         </div>
 
         <div className="flex gap-3">
-          <Button variant="outline">Sign In</Button>
-          <Button>Sign up</Button>
+          <Button variant="outline" asChild>
+            <Link href="/login">Iniciar sesión</Link>
+          </Button>
+          <Button asChild>
+            <Link href="/register">Registrarse</Link>
+          </Button>
         </div>
       </div>
     </header>
