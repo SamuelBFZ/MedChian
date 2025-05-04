@@ -1,4 +1,4 @@
-import { RegistroMedico } from "./RegistroMedico";
+import { RegistroMedico } from "./registroMedico";
 import { ResultadoDeExamen } from "./resultadoExamen";
 
 export interface Usuario {
